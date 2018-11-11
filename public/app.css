@@ -1,0 +1,84 @@
+body {
+	background: #80A3C3;
+}
+
+body #header .navbar {
+		font-size:  1rem;
+	}
+body #header .nav-item :hover {
+		font-size:  1.2rem;
+		background: rgba(0,123,255,.5);
+
+	}	
+
+body #header .form-inline {
+	height: 40px;
+}
+
+body #contactanos .texto {
+	height: 260px;
+	padding-top: 60px;
+}
+
+body #contactanos .texto h4 {
+	font-size: 1rem;
+}
+
+body #contactanos #map {
+	height: 280px;
+	width: 100%;
+	
+}
+
+body #contactanos .mapacontacto {
+	height: 260px;
+	
+}
+
+body #footer .nav-item :hover {
+	font-size: 1.2rem;
+	color: #fff;
+}
+
+@media (min-width: 423px) and (max-width: 767px) {
+	body #header .social i {
+		font-size: 2rem;
+	}
+	body #header .form-control {
+	width: 191px;
+	}
+
+	body #footer .nav-pills{
+	padding-bottom: 10px;	
+	display: flex;	
+	font-size: 0.7rem;
+	height: 20px;
+	}
+	body #footer .nav-link {
+	color: #f8f9fa;	
+	padding: 5px;
+	box-sizing: content-box;	
+	background: rgba(0,123,255,.5);
+	height: 23px;
+	}
+	body #footer h5 {
+	font-size: 0.7rem;
+	margin-top: 5px;	
+	}
+}
+
+@media (min-width: 767px) and (max-width: 991.98px)  {
+
+	body #header .navbar {
+		font-size:  0.6rem;
+	}
+	body #header .form-inline {
+	height: 30.4px;
+	}
+	body #header .form-control {
+		height: 2rem;
+	}
+	body #contactanos .texto p {
+	font-size: 0.7rem;
+	}
+}		
