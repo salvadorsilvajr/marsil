@@ -15,6 +15,7 @@ app.get("/", function(req, res){
    res.render("index");
 });
 
+var g_key =process.env.G_KEY;
 
 app.listen(process.env.PORT, process.env.IP, function(){
    console.log("The Marsil SA server has started !!!"); 
